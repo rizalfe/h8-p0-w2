@@ -1,0 +1,73 @@
+//1// Newton Second Law
+
+/Pseudocode
+
+SET massa WITH 600
+SET percepatan WITH 2
+SET resultan WITH massa MULTIPLY percepatan
+CALCULATE massa MULTIPLY percepatan
+DISPLAY resultan
+
+
+//2// Tahun Kabisat
+
+/Algorithm
+
+1. Tentukan nilai tahun
+2. Tentukan standar kondisi dari Tahun Kabisat
+3. Bandingkan tahun dengan standar kondisi dari Tahun Kabisat
+4. Jika tahun modulus 4 sama dengan 0 dan tahun modulus 100 tidak sama dengan 0 maka tampilkan 'Tahun Kabisat'
+5. Jika tahun modulus 4 sama dengan 0 dan tahun modulus 100 sama dengan 0 dan tahun modulus 400 sama dengan 0 makan tampilkan 'Tahun Kabisat'
+6. Jika tahun tidak memenuhi standar kondisi dari Tahun Kabisat maka tampilkan 'Bukan Tahun Kabisat'
+
+/Pseudocode
+
+SET tahun WITH any value
+IF tahun MOD 4 EQUALS 0 AND tahun MOD 100 NOT EQUALS 0 THEN
+    DISPLAY 'Tahun Kabisat'
+ELSE IF tahun MOD 4 EQUALS 0 AND tahun MOD 100 EQUALS 0 AND tahun MOD 400 EQUALS 0 THEN
+    DISPLAY 'Tahun Kabisat'
+ELSE
+    DISPLAY 'Bukan Tahun Kabisat'
+END IF
+
+
+//3// Laundry Day
+
+/Algorithm
+
+1. Tentukan jumlah pakaian yang akan dicuci sama dengan 0
+2. Tentukan jumlah pakaian yang dimasukkan ke mesin cuci sama dengan 1
+3. Masukkan pakaian ke mesin cuci dengan cara ditambah 1
+4. Jika jumlah pakaian kurang dari sama dengan 20, maka tambahkan pakaian ke mesin cuci 1
+5. Jika jumlah pakaian sama dengan 20 maka tampilkan jumlah pakaian
+
+/Pseudocode
+
+SET jumlahPakaian WITH 20
+SET pakaianDicuci WITH 0
+FOR jumlahPakaian LESS THAN pakaianDicuci
+    jumlahPakaian PLUS 1
+DISPLAY pakaianDicuci
+
+
+//4// Periksa Kuku
+
+/Algorithm
+
+1. Tentukan jumlah siswa 40
+2. Guru memeriksa siswa dengan cara dikurang 1
+3. Jika kuku yang diperiksa panjang maka guru memberikan hukuman kepada siswa
+4. Jika kuku yang diperiksa pendek maka guru memberikan pujian kepada siswa
+
+/Pseudocode
+
+SET jumlahSiswa WITH 40
+SET kukuPanjang WITH ''
+FOR siswaDicek LESS THAN jumlahSiswa
+IF siswaDicek EQUALS kukuPanjang THEN
+    DISPLAY 'Dipuji'
+ELSE siswaDicek EQUALS kukuPendek THEN
+    DISPLAY 'Dihukum'
+END IF
+siswaDicek PLUS 1
