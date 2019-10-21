@@ -64,6 +64,7 @@ DISPLAY pakaianDicuci
 
 SET jumlahSiswa WITH 40
 SET kukuPanjang WITH ''
+SET siswaDicek WITH 0
 FOR siswaDicek LESS THAN jumlahSiswa
 IF siswaDicek EQUALS kukuPanjang THEN
     DISPLAY 'Dipuji'
